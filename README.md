@@ -22,6 +22,7 @@ The program also supports the natural logarithm, Euler's number "e", and $\pi$
 # Error Cases
 
 1) Range Errors
+
 case 1 wrong range for a function
 
 ![image](https://user-images.githubusercontent.com/71590162/214888695-1681129c-549b-4a75-ab43-cf00ff8877f5.png)
