@@ -74,7 +74,7 @@ class GraphPlotter(QtWidgets.QWidget):
             self.canvas.draw()
 
         except:
-            self.show_error_message("Invalid function or range (the function has to be a of x)")
+            self.show_error_message("Invalid function (the function has to be of x)")
 
     def resolve_function(self, f):
         
@@ -109,15 +109,15 @@ class GraphPlotter(QtWidgets.QWidget):
             return
         
         # get th X axis
-        x_axis = [i for i in np.arange(x_min, x_max+0.1, 0.1)]
+        x_axis = [i for i in np.arange(x_min, x_max+0.01, 0.01)]
 
         # get th Y axis & check for errors
         try:
             y_axis = [float(f.subs(x,i)) for i in x_axis]
             return [x_axis, y_axis]
-        except:
+        except TypeError:
             y_axis = []
-            self.show_error_message("Invalid range for F(x)")
+            self.show_error_message("Invalid range for F(x) or Invalid Function")
             return
 
     def show_error_message(self, message):
