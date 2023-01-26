@@ -1,9 +1,11 @@
 # Functionality
-the program takes a function from the user and plots it.
-It supports arithmatic operations lik +, -, *, /, ^.
-It also supports trigonometric & hyperbolic functions
-Please, note that if you want to use inverse trigonometric functions like $tan^{-1}$ use atan and same for the others.
-The program also supports the natural logarith, Euler's number "e", and $\pi$
+the program takes a function from the user and plots it. 
+
+It supports arithmetic operations like +, -, *, /, ^. 
+
+It also supports trigonometric & hyperbolic functions. Please, note that if you want to use inverse trigonometric functions like $tan^{-1}$ use atan and same for the others. 
+
+The program also supports the natural logarithm, Euler's number "e", and $\pi$
 
 # GUI Layout
 ![image](https://user-images.githubusercontent.com/71590162/214874418-42a64f5b-fa62-4f0b-8dfe-5708cba049c8.png)
